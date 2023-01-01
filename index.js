@@ -21,7 +21,7 @@ const User =[ {
 }
 ];
 
-app.get('/api/v1/user',(req,res)=>{
+app.get('/',(req,res)=>{
    res.status(200).json(User);
 });
 
